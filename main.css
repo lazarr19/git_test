@@ -38,6 +38,10 @@ body {
     justify-content: space-between;
 }
 
+.navigation .links a {
+    margin-left: 10px;
+}
+
 .picture_header {
     flex: auto;
     display: flex;
@@ -70,5 +74,33 @@ body {
 }
 
 .information {
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.information .info_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: auto;
+}
+
+.information .info_images .figure_demo {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 15px;
+    text-align: center;
+}
+
+.information .info_images .figure_demo .image_demo {
+    flex: auto;
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: auto;
+    height: 100px;
 }
