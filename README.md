@@ -1,3 +1,3 @@
 # git_test
-My first GitHub repo!
-Hello Odin!
+Hello, I am trying to make a website following the Odin project.
+Wish me luck!
